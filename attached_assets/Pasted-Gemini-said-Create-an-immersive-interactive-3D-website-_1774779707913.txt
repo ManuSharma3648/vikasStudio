@@ -1,0 +1,62 @@
+Gemini said
+Create an immersive, interactive 3D website concept mock-up for 'Vikas Digital Studio,' specifically adapted to a light color scheme that perfectly matches the provided visiting card (image_22.png). The overall aesthetic is ultra-light, clean, airy, and professional, moving away from heavy gold to soft, pearlescent whites and creams, using the specific blue and green accent colors from the card, with elegant warm golden light flares. Build the website with the following structure and exact text details:
+
+1. 3D Hero Section
+
+Background: An incredibly light off-white/cream background with radiant, warm golden light flares and subtle, reflective circular golden frame elements, replicating the visual effects from image_22.png.
+
+Primary Title: 'VIKAS STUDIO' in the exact deep blue from the card (using the correct full name the user specified, but in this light blue color).
+
+Tagline: Below the title, 'A name of complete photography solutions.' in the same, smaller blue text.
+
+Visuals: A slowly rotating 3D model of the actual professional HDV video camera from the visiting card (image_22.png), complete with the macaws parrot visible on its small screen. Soft, glowing golden highlights.
+
+Call to Action: A polished, light-gold-and-cream glowing 3D button that says: 'Book Your Session' in blue text.
+
+2. Services Catalog (Interactive Carousel)
+
+Background: A subtly light pastel green section.
+
+Carousel Design: Floating off-white cards with circular reflective gold borders (mimicking the card's framing) and warm light highlights.
+
+Text Colors: All text in blue.
+
+Content: Create new illustrative 3D vignettes for each service, referencing the shop's actual work where applicable, in a light, soft aesthetic.
+
+Wedding Photography: A soft 3D vignette of the traditional couple from image_13.png. Text: "Capturing your timeless traditional elegance."
+
+Pre-Wedding Photography: A soft 3D vignette of an outdoor scenic shoot (like image_13.png). Text: "Scenic and romantic pre-wedding sessions."
+
+Wedding & Event Films: A soft 3D clapperboard and film strip. Text: "Crafting beautiful cinematic films of your events."
+
+Standard Studio Portraiture: A soft 3D studio light with umbrella (image_16.png). Text: "Professional portraits for families and individuals."
+
+Personalized Photo Gifts (Catalog): A soft 3D mug, keychain, and photo album (reference items in image_20.png). Text: "Transforming memories into gifts: Mugs, Keychains, Custom Albums."
+
+Photo Frames & Wall Art: A soft 3D vignette of various frames with picture examples. Text: "Exquisite framed art and albums."
+
+3. Branches & Contact Info (3D Location Section)
+
+Background: Soft cream with golden light reflections.
+
+Visuals: Display two detailed light storefront models and interactive 3D map pins representing the physical branches.
+
+Hamirpur Branch: Include exact address text from image_22.png in blue. A small exterior storefront model.
+
+Mehre Branch: Include exact address text: 'First floor Above PNB Bank near Bus Stand Mehre.' in blue. A second small exterior storefront model.
+
+Contact Panel: Display prominent contact details on an off-white panel.
+
+Mobile / WhatsApp: in green text, followed by the specific number '92187-20401' in green, with the exact green WhatsApp icon from image_22.png.
+
+Shop Contact: in green text, followed by '78070-20401' in green.
+
+Email: in blue text, followed by the exact email 'vikasstudio72@gmail.com' in blue, with a specific green email icon.
+
+4. Footer
+
+Clean 3D typography of 'Vikas Digital Studio' in the primary blue.
+
+A clear repeat of all contact numbers in green and the email address in blue.
+
+Integrate a subtle camera lens aperture icon (similar to image_22.png) as a design detail.
