@@ -9,14 +9,10 @@ const basePath = process.env.BASE_PATH ?? "/";
 
 export default defineConfig({
   base: basePath,
-
   plugins: [
     react(),
     tailwindcss(),
-
-    // ✅ Only enable in development
-    ...(process.env.NODE_ENV !== "production" ? [runtimeErrorOverlay()] : []),
-
+    runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
@@ -31,7 +27,6 @@ export default defineConfig({
         ]
       : []),
   ],
-
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
@@ -44,21 +39,26 @@ export default defineConfig({
     },
     dedupe: ["react", "react-dom"],
   },
-
   root: path.resolve(import.meta.dirname),
 
+  // ✅ FIXED HERE
   build: {
-    outDir: "dist", // ✅ correct for Vercel
+    outDir: "dist", // 🔥 IMPORTANT: was dist/public
     emptyOutDir: true,
   },
 
   server: {
     port,
     host: "0.0.0.0",
+    allowedHosts: true,
+    fs: {
+      strict: true,
+      deny: ["**/.*"],
+    },
   },
-
   preview: {
     port,
     host: "0.0.0.0",
+    allowedHosts: true,
   },
 });
