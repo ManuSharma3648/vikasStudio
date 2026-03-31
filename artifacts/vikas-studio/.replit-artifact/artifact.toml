@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Vikas Digital Studio"
+version = "1.0.0"
+id = "artifacts/vikas-studio"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20983
+
+[services.development]
+run = "pnpm --filter @workspace/vikas-studio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/vikas-studio", "run", "build" ]
+publicDir = "artifacts/vikas-studio/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20983"
+BASE_PATH = "/"
