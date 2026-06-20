@@ -23,10 +23,10 @@ export default function GalleryGrid({ images = [], emptyMessage }: GalleryGridPr
               <line x1="52" y1="22" x2="58" y2="22" stroke="#c9a227" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </div>
-          <p className="text-[var(--studio-blue)] font-semibold text-lg mb-1 opacity-60">
+          <p className="text-[var(--studio-blue)] font-semibold text-sm sm:text-base md:text-lg mb-1 opacity-60">
             {emptyMessage || "Your portfolio photos will appear here"}
           </p>
-          <p className="text-[var(--studio-blue-light)] text-sm opacity-50">
+          <p className="text-[var(--studio-blue-light)] text-xs sm:text-sm opacity-50">
             Add your best work to showcase this service
           </p>
         </div>

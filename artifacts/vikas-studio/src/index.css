@@ -95,6 +95,10 @@
     @apply bg-background text-foreground antialiased;
     font-family: 'Cinzel', 'Georgia', 'Times New Roman', serif;
     background-color: var(--studio-cream);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
   }
 }
 
@@ -148,6 +152,9 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: shimmer 4s linear infinite;
+  font-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .gold-border-glow {

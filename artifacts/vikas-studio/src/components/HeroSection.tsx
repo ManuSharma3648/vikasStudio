@@ -161,7 +161,7 @@ export default function HeroSection() {
   return (
     <section className="hero-gradient relative min-h-screen flex items-center overflow-hidden">
       {/* Background decorative rings */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div className="absolute inset-0 pointer-events-none hidden lg:block">
         <div className="absolute top-1/2 right-[22%] -translate-y-1/2 w-[580px] h-[580px] rounded-full border border-[rgba(201,162,39,0.12)] animate-spin-slow" />
         <div className="absolute top-1/2 right-[22%] -translate-y-1/2 w-[420px] h-[420px] rounded-full border border-[rgba(201,162,39,0.18)]" style={{ animation: 'spin-slow 15s linear infinite reverse' }} />
         <div className="absolute top-1/2 right-[22%] -translate-y-1/2 w-[280px] h-[280px] rounded-full border border-[rgba(201,162,39,0.22)]" />
@@ -188,62 +188,62 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 lg:px-16 grid lg:grid-cols-2 gap-12 items-center relative z-10 pt-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10 pt-12 sm:pt-20">
         {/* Left: Text content */}
         <div className="animate-slide-up">
-          <div className="mb-3 flex items-center gap-3">
-            <div className="h-px w-12 bg-gradient-to-r from-transparent to-[var(--studio-gold)]" />
-            <span className="text-[var(--studio-gold)] text-sm font-medium tracking-[0.3em] uppercase">Photography & Videography</span>
+          <div className="mb-3 flex items-center gap-2 sm:gap-3">
+            <div className="h-px w-8 sm:w-12 bg-gradient-to-r from-transparent to-[var(--studio-gold)]" />
+            <span className="text-[var(--studio-gold)] text-xs sm:text-sm font-medium tracking-[0.3em] uppercase">Photography & Videography</span>
           </div>
 
-          <h1 className="text-5xl lg:text-7xl font-bold text-[var(--studio-blue)] leading-tight tracking-wide">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-[var(--studio-blue)] leading-tight tracking-wide">
             VIKAS
-            <span className="block text-4xl lg:text-6xl tracking-widest">STUDIO</span>
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-6xl tracking-widest">STUDIO</span>
           </h1>
 
           <div className="mt-2 mb-6 flex items-center gap-3">
-            <div className="h-px w-full max-w-[200px] bg-gradient-to-r from-[var(--studio-gold)] to-transparent" />
+            <div className="h-px w-full max-w-[140px] sm:max-w-[200px] bg-gradient-to-r from-[var(--studio-gold)] to-transparent" />
           </div>
 
-          <p className="text-[var(--studio-blue)] text-xl lg:text-2xl italic font-light tracking-wide mb-2">
+          <p className="text-[var(--studio-blue)] text-base sm:text-xl lg:text-2xl italic font-light tracking-wide mb-2">
             A name of complete photography solutions.
           </p>
 
-          <p className="text-[var(--studio-blue-light)] text-base leading-relaxed mb-8 max-w-md opacity-80">
+          <p className="text-[var(--studio-blue-light)] text-xs sm:text-sm md:text-base leading-relaxed mb-6 sm:mb-8 max-w-md opacity-80">
             Capturing life's most precious moments with cinematic artistry.
             From timeless weddings to professional portraits — your memories, our passion.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a href="#contact">
-              <button className="btn-gold px-8 py-4 rounded-full text-[var(--studio-blue)] font-semibold text-lg tracking-wide cursor-pointer">
+              <button className="btn-gold px-6 sm:px-8 py-3 sm:py-4 rounded-full text-[var(--studio-blue)] font-semibold text-xs sm:text-sm md:text-lg tracking-wide cursor-pointer w-full sm:w-auto">
                 ✦ Book Your Session
               </button>
             </a>
             <a href="#services">
-              <button className="btn-primary px-8 py-4 rounded-full text-white font-semibold text-lg tracking-wide cursor-pointer">
+              <button className="btn-primary px-6 sm:px-8 py-3 sm:py-4 rounded-full text-white font-semibold text-xs sm:text-sm md:text-lg tracking-wide cursor-pointer w-full sm:w-auto">
                 View Services
               </button>
             </a>
           </div>
 
           {/* Stats row */}
-          <div className="mt-10 grid grid-cols-3 gap-6">
+          <div className="mt-8 sm:mt-10 grid grid-cols-3 gap-4 sm:gap-6">
             {[
               { value: "15+", label: "Years Experience" },
               { value: "2", label: "Studio Branches" },
               { value: "1000+", label: "Happy Clients" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-2xl font-bold text-[var(--studio-blue)]">{stat.value}</div>
-                <div className="text-xs text-[var(--studio-blue-light)] opacity-70 tracking-wide">{stat.label}</div>
+                <div className="text-base sm:text-lg md:text-2xl font-bold text-[var(--studio-blue)]">{stat.value}</div>
+                <div className="text-[8px] sm:text-xs text-[var(--studio-blue-light)] opacity-70 tracking-wide">{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
 
         {/* Right: Animated Camera */}
-        <div className="relative h-[400px] lg:h-[500px] animate-fade-in">
+        <div className="hidden lg:flex relative h-[400px] lg:h-[500px] animate-fade-in items-center justify-center">
           {/* Outer glow rings */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div className="w-[340px] h-[340px] rounded-full border-2 border-[rgba(201,162,39,0.2)] animate-radiate" />
@@ -264,7 +264,7 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[rgba(240,249,241,0.3)] to-transparent" />
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+      <div className="hidden sm:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 animate-bounce">
         <span className="text-[var(--studio-blue)] text-xs tracking-[0.2em] opacity-60">SCROLL</span>
         <div className="w-px h-8 bg-gradient-to-b from-[var(--studio-blue)] to-transparent opacity-40" />
       </div>

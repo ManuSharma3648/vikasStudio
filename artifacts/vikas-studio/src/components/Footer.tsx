@@ -45,14 +45,14 @@ export default function Footer() {
               </svg>
             </div>
 
-            <h2 className="text-4xl lg:text-5xl font-bold text-white tracking-wide">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-wide">
               VIKAS
             </h2>
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-[0.15em]"
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-[0.15em]"
               style={{ color: 'var(--studio-gold)' }}>
               DIGITAL STUDIO
             </h2>
-            <p className="mt-2 text-white/60 text-sm italic tracking-wide">
+            <p className="mt-2 text-white/60 text-xs sm:text-sm italic tracking-wide">
               A name of complete photography solutions.
             </p>
           </div>
@@ -68,28 +68,28 @@ export default function Footer() {
         {/* Contact details */}
         <div className="grid sm:grid-cols-3 gap-6 mb-10 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-[var(--studio-green-light)] text-xs font-semibold tracking-[0.2em] uppercase mb-2">Mobile / WhatsApp</div>
-            <a href="tel:+919218720401" className="text-[#4caf50] font-bold text-xl hover:text-[#81c784] transition-colors">
+            <div className="text-[var(--studio-green-light)] text-[10px] sm:text-xs font-semibold tracking-[0.2em] uppercase mb-2">Mobile / WhatsApp</div>
+            <a href="tel:+919218720401" className="text-[#4caf50] font-bold text-base sm:text-lg md:text-xl hover:text-[#81c784] transition-colors">
               92187-20401
             </a>
           </div>
           <div className="text-center">
-            <div className="text-[var(--studio-green-light)] text-xs font-semibold tracking-[0.2em] uppercase mb-2">Shop Contact</div>
-            <a href="tel:+917807020401" className="text-[#4caf50] font-bold text-xl hover:text-[#81c784] transition-colors">
+            <div className="text-[var(--studio-green-light)] text-[10px] sm:text-xs font-semibold tracking-[0.2em] uppercase mb-2">Shop Contact</div>
+            <a href="tel:+917807020401" className="text-[#4caf50] font-bold text-base sm:text-lg md:text-xl hover:text-[#81c784] transition-colors">
               78070-20401
             </a>
           </div>
           <div className="text-center">
-            <div className="text-white/60 text-xs font-semibold tracking-[0.2em] uppercase mb-2">Email</div>
+            <div className="text-white/60 text-[10px] sm:text-xs font-semibold tracking-[0.2em] uppercase mb-2">Email</div>
             <a href="mailto:vikasstudio72@gmail.com"
-              className="text-white font-medium text-sm hover:text-[var(--studio-gold)] transition-colors break-all">
+              className="text-white font-medium text-xs sm:text-sm hover:text-[var(--studio-gold)] transition-colors break-all">
               vikasstudio72@gmail.com
             </a>
           </div>
         </div>
 
         {/* Nav links */}
-        <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-white/60 text-sm">
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-8 text-white/60 text-xs sm:text-sm">
           {['Home', 'Services', 'Branches', 'Contact'].map((item) => (
             <a
               key={item}
@@ -105,10 +105,10 @@ export default function Footer() {
         <div className="pt-6 border-t border-white/10 text-center">
           <div className="flex items-center justify-center gap-3 mb-1">
             <div className="h-px w-8 bg-[rgba(201,162,39,0.3)]" />
-            <span className="text-white/40 text-xs tracking-[0.2em]">EST. HAMIRPUR H.P.</span>
+            <span className="text-white/40 text-[9px] sm:text-xs tracking-[0.2em]">EST. HAMIRPUR H.P.</span>
             <div className="h-px w-8 bg-[rgba(201,162,39,0.3)]" />
           </div>
-          <p className="text-white/30 text-xs">
+          <p className="text-white/30 text-[9px] sm:text-xs">
             © {new Date().getFullYear()} Vikas Digital Studio. All rights reserved.
           </p>
         </div>

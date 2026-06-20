@@ -346,23 +346,23 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
       <div className="p-5">
         <div className="flex items-start justify-between mb-2">
           <div>
-            <div className="text-[10px] tracking-[0.25em] uppercase font-medium mb-1"
+            <div className="text-[8px] sm:text-[9px] md:text-[10px] tracking-[0.25em] uppercase font-medium mb-1"
               style={{ color: service.color }}>
               {service.subtitle}
             </div>
-            <h3 className="text-[var(--studio-blue)] font-bold text-lg leading-tight">
+            <h3 className="text-[var(--studio-blue)] font-bold text-sm sm:text-base md:text-lg leading-tight">
               {service.title}
             </h3>
           </div>
-          <span className="text-2xl">{service.icon}</span>
+          <span className="text-lg sm:text-xl md:text-2xl">{service.icon}</span>
         </div>
 
         <div className="my-3 h-px bg-gradient-to-r from-[rgba(201,162,39,0.4)] to-transparent" />
 
-        <p className="text-[var(--studio-blue)] font-medium text-sm mb-2 italic">
+        <p className="text-[var(--studio-blue)] font-medium text-xs sm:text-sm mb-2 italic">
           "{service.description}"
         </p>
-        <p className="text-[var(--studio-blue-light)] text-xs leading-relaxed opacity-75">
+        <p className="text-[var(--studio-blue-light)] text-[11px] sm:text-xs leading-relaxed opacity-75">
           {service.detail}
         </p>
 
@@ -406,16 +406,16 @@ export default function ServicesSection() {
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="h-px w-20 bg-gradient-to-r from-transparent to-[var(--studio-gold)]" />
-            <span className="text-[var(--studio-green)] text-sm font-medium tracking-[0.3em] uppercase">Our Services</span>
+            <span className="text-[var(--studio-green)] text-xs sm:text-sm font-medium tracking-[0.3em] uppercase">Our Services</span>
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-[var(--studio-gold)]" />
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-[var(--studio-blue)] mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--studio-blue)] mb-3">
             Complete Photography
           </h2>
-          <h2 className="text-3xl lg:text-4xl font-bold text-[var(--studio-blue)] mb-5">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[var(--studio-blue)] mb-5">
             Solutions
           </h2>
-          <p className="text-[var(--studio-blue-light)] max-w-xl mx-auto leading-relaxed opacity-80">
+          <p className="text-[var(--studio-blue-light)] max-w-xl mx-auto text-sm md:text-base leading-relaxed opacity-80">
             From weddings to wall art, we offer a complete range of professional photography and videography services tailored to your needs.
           </p>
         </div>

@@ -129,13 +129,13 @@ export default function BranchesSection() {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="h-px w-20 bg-gradient-to-r from-transparent to-[var(--studio-gold)]" />
-            <span className="text-[var(--studio-gold)] text-sm font-medium tracking-[0.3em] uppercase">Find Us</span>
+            <span className="text-[var(--studio-gold)] text-xs sm:text-sm font-medium tracking-[0.3em] uppercase">Find Us</span>
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-[var(--studio-gold)]" />
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-[var(--studio-blue)] mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--studio-blue)] mb-4">
             Our Branches
           </h2>
-          <p className="text-[var(--studio-blue-light)] max-w-lg mx-auto opacity-80">
+          <p className="text-[var(--studio-blue-light)] max-w-lg mx-auto text-sm md:text-base opacity-80">
             Two conveniently located studios ready to serve you across Himachal Pradesh.
           </p>
         </div>
@@ -152,20 +152,20 @@ export default function BranchesSection() {
                 <div className="w-10 h-10 rounded-full flex items-center justify-center text-white text-sm font-bold"
                   style={{ background: 'var(--studio-blue)' }}>H</div>
                 <div>
-                  <div className="text-[var(--studio-gold)] text-xs tracking-[0.2em] uppercase font-medium">Branch 01</div>
-                  <h3 className="text-[var(--studio-blue)] font-bold text-xl">Hamirpur</h3>
+                  <div className="text-[var(--studio-gold)] text-[10px] sm:text-xs tracking-[0.2em] uppercase font-medium">Branch 01</div>
+                  <h3 className="text-[var(--studio-blue)] font-bold text-base sm:text-lg md:text-xl">Hamirpur</h3>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 mb-4">
-                <span className="text-[var(--studio-gold)] mt-1 text-lg">📍</span>
-                <p className="text-[var(--studio-blue)] font-medium leading-relaxed">
+                <span className="text-[var(--studio-gold)] mt-1 text-base sm:text-lg">📍</span>
+                <p className="text-[var(--studio-blue)] font-medium text-sm leading-relaxed">
                   Koushal Complex Near Deep & Co.,<br />
                   Main Bazar Hamirpur (H.P.)
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-[rgba(201,162,39,0.2)] flex items-center gap-2 text-sm text-[var(--studio-blue-light)] opacity-70">
+              <div className="pt-4 border-t border-[rgba(201,162,39,0.2)] flex items-center gap-2 text-xs sm:text-sm text-[var(--studio-blue-light)] opacity-70">
                 <span>🕐</span>
                 <span>Mon–Sat: 9:00 AM – 7:00 PM</span>
               </div>
@@ -182,20 +182,20 @@ export default function BranchesSection() {
                 <div className="w-10 h-10 rounded-full flex items-center justify-center text-white text-sm font-bold"
                   style={{ background: 'var(--studio-green)' }}>M</div>
                 <div>
-                  <div className="text-[var(--studio-gold)] text-xs tracking-[0.2em] uppercase font-medium">Branch 02</div>
-                  <h3 className="text-[var(--studio-blue)] font-bold text-xl">Mehre</h3>
+                  <div className="text-[var(--studio-gold)] text-[10px] sm:text-xs tracking-[0.2em] uppercase font-medium">Branch 02</div>
+                  <h3 className="text-[var(--studio-blue)] font-bold text-base sm:text-lg md:text-xl">Mehre</h3>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 mb-4">
-                <span className="text-[var(--studio-gold)] mt-1 text-lg">📍</span>
-                <p className="text-[var(--studio-blue)] font-medium leading-relaxed">
+                <span className="text-[var(--studio-gold)] mt-1 text-base sm:text-lg">📍</span>
+                <p className="text-[var(--studio-blue)] font-medium text-sm leading-relaxed">
                   First Floor Above PNB Bank,<br />
                   Near Bus Stand, Mehre
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-[rgba(201,162,39,0.2)] flex items-center gap-2 text-sm text-[var(--studio-blue-light)] opacity-70">
+              <div className="pt-4 border-t border-[rgba(201,162,39,0.2)] flex items-center gap-2 text-xs sm:text-sm text-[var(--studio-blue-light)] opacity-70">
                 <span>🕐</span>
                 <span>Mon–Sat: 9:00 AM – 7:00 PM</span>
               </div>
@@ -204,14 +204,14 @@ export default function BranchesSection() {
         </div>
 
         {/* Contact Panel */}
-        <div id="contact" className="glass-card gold-border-glow rounded-3xl p-10 text-center max-w-3xl mx-auto">
+        <div id="contact" className="glass-card gold-border-glow rounded-3xl p-8 sm:p-10 text-center max-w-3xl mx-auto">
           <div className="mb-8">
             <div className="flex items-center justify-center gap-4 mb-3">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-[var(--studio-gold)]" />
-              <span className="text-[var(--studio-gold)] text-sm tracking-[0.3em] uppercase font-medium">Contact Us</span>
+              <span className="text-[var(--studio-gold)] text-xs sm:text-sm tracking-[0.3em] uppercase font-medium">Contact Us</span>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-[var(--studio-gold)]" />
             </div>
-            <h3 className="text-[var(--studio-blue)] text-3xl font-bold">Get In Touch</h3>
+            <h3 className="text-[var(--studio-blue)] text-xl sm:text-2xl md:text-3xl font-bold">Get In Touch</h3>
           </div>
 
           <div className="grid sm:grid-cols-3 gap-5">
@@ -225,8 +225,8 @@ export default function BranchesSection() {
                 </svg>
               </div>
               <div>
-                <div className="text-[var(--studio-green)] text-xs font-semibold tracking-wide uppercase mb-1">Mobile / WhatsApp</div>
-                <a href="tel:+919218720401" className="text-[var(--studio-green)] font-bold text-xl hover:underline">
+                <div className="text-[var(--studio-green)] text-[10px] sm:text-xs font-semibold tracking-wide uppercase mb-1">Mobile / WhatsApp</div>
+                <a href="tel:+919218720401" className="text-[var(--studio-green)] font-bold text-base sm:text-lg md:text-xl hover:underline">
                   92187-20401
                 </a>
               </div>
@@ -235,13 +235,13 @@ export default function BranchesSection() {
             {/* Shop Contact */}
             <div className="flex flex-col items-center gap-3 p-5 rounded-2xl"
               style={{ background: 'rgba(46,125,50,0.08)', border: '1px solid rgba(46,125,50,0.2)' }}>
-              <div className="w-12 h-12 rounded-full flex items-center justify-center text-2xl"
+              <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl sm:text-2xl md:text-3xl"
                 style={{ background: 'rgba(46,125,50,0.15)' }}>
                 📞
               </div>
               <div>
-                <div className="text-[var(--studio-green)] text-xs font-semibold tracking-wide uppercase mb-1">Shop Contact</div>
-                <a href="tel:+917807020401" className="text-[var(--studio-green)] font-bold text-xl hover:underline">
+                <div className="text-[var(--studio-green)] text-[10px] sm:text-xs font-semibold tracking-wide uppercase mb-1">Shop Contact</div>
+                <a href="tel:+917807020401" className="text-[var(--studio-green)] font-bold text-base sm:text-lg md:text-xl hover:underline">
                   78070-20401
                 </a>
               </div>
@@ -258,8 +258,8 @@ export default function BranchesSection() {
                 </svg>
               </div>
               <div>
-                <div className="text-[var(--studio-blue)] text-xs font-semibold tracking-wide uppercase mb-1">Email</div>
-                <a href="mailto:vikasstudio72@gmail.com" className="text-[var(--studio-blue)] font-bold text-sm hover:underline break-all">
+                <div className="text-[var(--studio-blue)] text-[10px] sm:text-xs font-semibold tracking-wide uppercase mb-1">Email</div>
+                <a href="mailto:vikasstudio72@gmail.com" className="text-[var(--studio-blue)] font-bold text-xs sm:text-sm hover:underline break-all">
                   vikasstudio72@gmail.com
                 </a>
               </div>
@@ -268,7 +268,7 @@ export default function BranchesSection() {
 
           <div className="mt-8">
             <a href="tel:+919218720401">
-              <button className="btn-gold px-10 py-4 rounded-full text-[var(--studio-blue)] font-semibold text-lg tracking-wide">
+              <button className="btn-gold px-8 sm:px-10 py-3 sm:py-4 rounded-full text-[var(--studio-blue)] font-semibold text-sm sm:text-base md:text-lg tracking-wide">
                 ✦ Book Your Session Now
               </button>
             </a>

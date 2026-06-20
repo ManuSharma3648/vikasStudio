@@ -48,8 +48,8 @@ export default function Navbar() {
             </svg>
           </div>
           <div>
-            <div className="text-[var(--studio-blue)] font-bold text-base leading-tight tracking-wider">VIKAS STUDIO</div>
-            <div className="text-[var(--studio-gold)] text-[9px] tracking-[0.25em] uppercase leading-none">Digital Studio</div>
+            <div className="text-[var(--studio-blue)] font-bold text-xs sm:text-sm md:text-base leading-tight tracking-wider">VIKAS STUDIO</div>
+            <div className="text-[var(--studio-gold)] text-[7px] sm:text-[8px] md:text-[9px] tracking-[0.25em] uppercase leading-none">Digital Studio</div>
           </div>
         </a>
 
